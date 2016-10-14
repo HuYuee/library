@@ -1,0 +1,33 @@
+{
+  "name": "sparrow",
+  "version": "1.0.0",
+  "description": "library",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --progress --colors --watch --mode=development",
+    "build": "webpack --mode=production",
+    "lint": "eslint ./src",
+    "lint:fix": "eslint ./src --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HuyueHappy/library.git"
+  },
+  "author": "Huyue",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HuyueHappy/library/issues"
+  },
+  "homepage": "https://github.com/HuyueHappy/library#readme",
+  "devDependencies": {
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-es2015": "^6.16.0",
+    "eslint": "^3.7.1",
+    "eslint-loader": "^1.5.0",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.2",
+    "yargs": "^6.0.0"
+  }
+}
